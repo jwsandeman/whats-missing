@@ -18,7 +18,7 @@ export const reducer = (state, action) => {
     case 'setRecipes': {
       return {
         ...state,
-        recipes: [action.data, ...state.recipes],
+        recipes: [action.data],
       };
     }
     case 'setMyRecipes': {

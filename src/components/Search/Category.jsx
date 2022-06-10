@@ -1,10 +1,10 @@
 import { Heading, Select, Stack } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { UseGlobalState } from '../utils/Context';
 
 const Category = () => {
   const { store, dispatch } = UseGlobalState();
-  const { category, quantity, recipes } = store;
+  const { category } = store;
 
   const changeHandler = e => {
     dispatch({

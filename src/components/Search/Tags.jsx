@@ -3,7 +3,7 @@ import React from 'react';
 import { UseGlobalState } from '../utils/Context';
 
 const Tags = () => {
-  const { store, dispatch } = UseGlobalState();
+  const { store } = UseGlobalState();
   const { myIngredients } = store;
 
   return (

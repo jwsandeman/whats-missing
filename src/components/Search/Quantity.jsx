@@ -4,10 +4,8 @@ import {
   NumberInput,
   NumberInputField,
   NumberInputStepper,
-  Select,
-  Stack,
 } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { UseGlobalState } from '../utils/Context';
 
 const Quantity = () => {

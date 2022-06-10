@@ -96,7 +96,7 @@ function App() {
                 <TabPanels>
                   <TabPanel>
                     <Search />
-                    {recipes && <Recipes recipes={recipes} />}
+                    {recipes && <Recipes />}
                   </TabPanel>
                   <TabPanel>
                     <Recipes />

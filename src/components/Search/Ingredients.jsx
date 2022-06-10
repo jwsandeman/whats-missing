@@ -55,6 +55,7 @@ const Ingredients = () => {
           onChange={checkHandler}
           value={ingredient}
           colorScheme="green"
+          isChecked={myIngredients.includes(ingredient)}
         >
           {ingredient}
         </Checkbox>
